@@ -12,7 +12,7 @@ f().then(
 )
 
 /**
- * async函数内部抛出错误，会导致返回的 Promise 对象变为reject状态。抛出的错误对象会被catch方法回调函数接收到。
+ * async1111函数内部抛出错误，会导致返回的 Promise 对象变为reject状态。抛出的错误对象会被catch方法回调函数接收到。
  */
 async function f1() {
 	throw new Error('出错了')
